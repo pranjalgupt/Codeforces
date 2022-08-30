@@ -5,10 +5,10 @@ public class test2 {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         if(a<=2 ||a % 2 == 0){
-            System.out.println("NO");
+            System.out.println("Yes");
         }
         else{
-        System.out.print("Yes"); 
+        System.out.print("No"); 
         }
     }    
 }
